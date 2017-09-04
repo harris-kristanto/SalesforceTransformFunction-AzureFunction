@@ -1,0 +1,17 @@
+{
+  "scriptFile": "..\\bin\\SalesforceTransformFunctions.dll",
+  "entryPoint": "SalesforceTransformFunctions.SalesforceJsonToFlatFile.Run",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    }
+  ]
+}
